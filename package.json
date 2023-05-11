@@ -1,0 +1,21 @@
+{
+  "name": "@cx/ui-editor",
+  "private": "true",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint --ext .js,.ts src"
+  },
+  "dependencies": {
+    "@cx/format": "workspace:*",
+    "@tiptap/extension-bubble-menu": "2.0.0-beta.220",
+    "@tiptap/extension-link": "2.0.0-beta.220",
+    "@tiptap/extension-underline": "2.0.0-beta.220",
+    "@tiptap/pm": "2.0.0-beta.220",
+    "@tiptap/react": "2.0.0-beta.220",
+    "@tiptap/starter-kit": "2.0.0-beta.220",
+    "react-icons": "^4.8.0"
+  }
+}

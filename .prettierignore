@@ -1,0 +1,14 @@
+node_modules/
+.yarn
+package.json
+package-lock.json
+
+
+# Ignore artifacts:
+build/
+coverage/
+.cache
+
+vite-env.d.ts
+vite.config.ts
+jest.config.js

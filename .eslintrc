@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "rules": {
+    "react/no-unescaped-entities": 0,
+    "react/prop-types": 0,
+    "react/display-name": "off",
+    "eslintjsx-a11y/alt-text": "off",
+    "prettier/prettier": "warn"
+  }
+}
